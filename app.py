@@ -11,7 +11,7 @@ import streamlit as st
 from interview_platform.config import settings
 
 st.set_page_config(
-    page_title="NeuralPrep — AI Interview Platform",
+    page_title="MDX INTERVIEW AI ML ",
     page_icon="🎓",
     layout="wide",
     initial_sidebar_state="collapsed",
