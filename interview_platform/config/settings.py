@@ -27,7 +27,7 @@ except ImportError:
 class Settings:
     # ── Google Gemini ─────────────────────────────────────────────
     gemini_api_key: Optional[str] = field(
-        default_factory=lambda: os.environ.get("GEMINI_API_KEY", "")
+        default_factory=lambda: os.environ.get("GEMINI_API_KEY", "AIzaSyCC9Oga9mVE39Ke6CD8XvOplLIRW5zoz4c")
     )
     # Best model for deep technical evaluation & reasoning
     gemini_model_eval:     str = "gemini-2.5-pro-preview-06-05"
